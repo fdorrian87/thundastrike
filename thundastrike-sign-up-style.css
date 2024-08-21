@@ -1,0 +1,76 @@
+/* Sign-Up Page Styles */
+.sign-up-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #111;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(140, 26, 255, 0.3);
+}
+
+.sign-up-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.sign-up-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.sign-up-form label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.sign-up-form input {
+    width: 90%;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #222;
+    color: #fff;
+}
+
+.sign-up-button {
+    width: 100%;
+    background-color: #8c1aff;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sign-up-button:hover {
+    background-color: #6b00cc;
+}
+
+.sign-up-message {
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+.sign-in-link {
+    color: #8c1aff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sign-in-link:hover {
+    color: #6b00cc;
+}

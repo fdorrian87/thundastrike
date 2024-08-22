@@ -1,5 +1,4 @@
-/* Sign-Up Page Styles */
-body {
+body{
     width: 100%;
     height: 100%;
     margin: 0;
@@ -13,9 +12,11 @@ body {
     justify-content: center;
 }
 
-.sign-up-container {
+/* Profile Creation Container */
+
+.profile-creation-container {
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     background-color: #111;
     border-radius: 1rem;
     box-shadow: 0 0 50px rgba(140, 26, 255, 0.5);
@@ -25,30 +26,31 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
-.sign-up-title {
+  
+  .profile-creation-title {
     font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 1.5rem;
     color: #fff;
-}
-
-.sign-up-form .form-group {
+  }
+  
+  .profile-creation-form .form-group {
     margin-bottom: 1.5rem;
-}
-
-.sign-up-form label {
+  }
+  
+  .profile-creation-form label {
     display: block;
     font-size: 1.2rem;
     font-weight: 500;
     font-family: sans-serif;
     margin-bottom: 0.5rem;
     color: #fff;
-}
-
-.sign-up-form input {
+  }
+  
+  .profile-creation-form input,
+  .profile-creation-form textarea {
     width: 90%;
     padding: 0.8rem 1.2rem;
     font-size: 1.2rem;
@@ -56,9 +58,14 @@ body {
     border-radius: 0.5rem;
     background-color: #222;
     color: #fff;
-}
-
-.sign-up-button {
+  }
+  
+  .profile-creation-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .profile-creation-button {
     width: 100%;
     background-color: #8c1aff;
     color: #fff;
@@ -69,48 +76,8 @@ body {
     border-radius: 2rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.sign-up-button:hover {
-    background-color: #6b00cc;
-}
-
-.sign-up-form .form-group select {
-    width: 100%;
-    padding: 0.8rem 1.2rem;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 0.5rem;
-    background-color: #222;
-    color: #fff;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z' fill='%23fff'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 1rem center;
-    background-size: 1.5rem;
-    cursor: pointer;
   }
   
-  .sign-up-form .form-group select option {
-    background-color: #111;
-    color: #fff;
+  .profile-creation-button:hover {
+    background-color: #6b00cc;
   }
-
-.sign-up-message {
-    font-size: 1rem;
-    font-family: sans-serif;
-    margin-top: 1.5rem;
-    color: #fff;
-}
-
-.sign-in-link {
-    color: #8c1aff;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.sign-in-link:hover {
-    color: #6b00cc;
-}

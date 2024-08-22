@@ -9,21 +9,29 @@
     <div class="sign-up-container">
         <h1 class="sign-up-title">Sign Up</h1>
         <form class="sign-up-form">
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="form-group">
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-            </div>
-            <button type="submit" class="sign-up-button">Sign Up</button>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+          </div>
+          <div class="form-group">
+            <label for="account-type">I am a:</label>
+            <select id="account-type" name="account-type" required>
+              <option value="">Select Account Type</option>
+              <option value="client">Client</option>
+              <option value="trainer">Personal Trainer</option>
+            </select>
+          </div>
+          <button type="submit" class="sign-up-button">Sign Up</button>
         </form>
         <p class="sign-up-message">Already have an account? <a href="#" class="sign-in-link">Sign In</a></p>
-    </div>
+      </div>
 </body>
 </html>

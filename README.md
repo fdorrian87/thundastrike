@@ -5,4 +5,4 @@ First iteration will be to create the basic GUI and availability/booking functio
 
 Second iteration will be to add additional functions, such as cancellations/rescheduling. 
 
-Third iteration will aim to introduce an online payment rail between client and PT, offering refunds where necessary. 
+Third iteration will aim to introduce an online payment rail between client and PT, offering refunds where necessary, and the ability for trainers to require a deposit at the point of session booking. 
